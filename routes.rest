@@ -1,0 +1,55 @@
+###
+GET http://localhost:8080/
+
+### 
+GET http://localhost:8080/65c85294f1d5bc79fe1aae5e HTTP/1.1
+
+####
+Post http://localhost:8080/ HTTP/1.1
+Content-Type: application/json
+
+ {
+    "name": "Charmander",
+    "pokedexId": "007",
+    "type1": "Fire",
+    "type2": "None",
+    "favoriteColor": "?"
+  }
+
+####
+Put http://localhost:8080/  HTTP/1.1
+Content-Type: application/json
+
+    { "favoriteColor": "Black" }
+
+####
+Delete http://localhost:8080/ HTTP/1.1
+
+# Render links vv
+
+####
+Get https://pokemon-ktdm.onrender.com HTTP/1.1
+
+###
+Get https://pokemon-ktdm.onrender.com/ HTTP/1.1
+
+####
+Post https://pokemon-ktdm.onrender.com HTTP/1.1
+Content-Type: application/json
+
+ {
+    "name": "Charmander",
+    "pokedexId": "007",
+    "type1": "Fire",
+    "type2": "None",
+    "favoriteColor": "?"
+  }
+
+####
+Put https://pokemon-ktdm.onrender.com/
+Content-Type: application/json
+
+    { "favoriteColor": "White" }
+
+####
+Delete https://pokemon-ktdm.onrender.com HTTP/1.1
