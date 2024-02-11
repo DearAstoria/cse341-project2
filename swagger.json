@@ -5,10 +5,10 @@
     "description": "Project 2 for cse341",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "https://pokemon-ktdm.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/api-docs": {
