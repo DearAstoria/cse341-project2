@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Sprigatito",
+    "pokedexId": "001",
+    "type1": "Grass",
+    "type2": "None",
+    "favoriteColor": "?"
+  },
+  {
+    "name": "Floragato",
+    "pokedexId": "002",
+    "type1": "Grass",
+    "type2": "None",
+    "favoriteColor": "?"
+  },
+  {
+    "name": "Meowscarada",
+    "pokedexId": "003",
+    "type1": "Grass",
+    "type2": "Dark",
+    "favoriteColor": "?"
+  }
+]
