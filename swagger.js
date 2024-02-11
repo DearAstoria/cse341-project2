@@ -5,7 +5,7 @@ const doc = {
     title: "Pokemon API",
     description: "Project 2 for cse341",
   },
-  host: "https://pokemon-ktdm.onrender.com",
+  host: "pokemon-ktdm.onrender.com",
   schemes: ["https"],
 };
 
