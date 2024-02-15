@@ -1,0 +1,66 @@
+    //console.log(receivedResult);
+    //console.log("after dude");
+    //.then((result) => {
+    //  ay = result;
+    //  console.log("yo");
+    //  return ay;
+    //})
+    //.then(console.log(result));
+
+    //console.log(result);
+    //dot = [];
+    //if (result) {
+    //  console.log("Yo it doesnotexist");
+    //}
+
+    //    (err, result) => {
+    //    //console.log("am i here");
+    //    if (err) {
+    //      console.log(" in err");
+    //    } else {
+    //      console.log("success?");
+    //    }
+    //    console.log("what?");
+
+    //  });
+    //result.toArray().then((array) => {
+    //  response.setHeader("Content-Type", "application/json");
+    //  response.
+    //console.log("hi upper");
+    //if (response.status(200).json(array) == []) {
+    //  //console.log("hi");
+    //  //console.log("really");
+    //}
+    //console.log("hi lower");
+    //});
+    //result_after = result.toArray();
+    //console.log(result_after);
+    //response.setHeader("Content-Type", "application/json");
+    //response.status(200).json(result_after);
+
+    //console.log("hello from getAll");
+    //const result = mongodb.getDb().db().collection("pokemon").find();
+    ////.toArray((err, list) => {
+    ////  yo = [];
+    ////  if (list.toArray() == yo) {
+    ////    console.log("Yo we got this");
+    ////  }
+    ////});
+    ////result.toArray().then((array) => {
+    ////  response.setHeader("Content-Type", "application/json");
+    ////  response.status(200).json(array);
+    ////});
+
+    ////console.log(result.toArray());
+    //response.setHeader("Content-Type", "application/json");
+    //response.status(200).json(result);
+    ////console.log(result);
+    ////if (result.err) {
+    ////  response.setHeader("Content-Type", "application/json");
+    ////  response.status(400).json({ message: err });
+    ////} else {
+    ////  response.setHeader("Content-Type", "application/json");
+    ////  response.status(200).json(result);
+    ////response.redirect("/")
+    ////}
+    //console.log("hello from after inside toArray");

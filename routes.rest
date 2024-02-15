@@ -2,7 +2,7 @@
 GET http://localhost:8080/
 
 ### 
-GET http://localhost:8080/65c85294f1d5bc79fe1aae5e HTTP/1.1
+GET http://localhost:8080/65ce7072ab54a010db35ea9f HTTP/1.1
 
 ####
 Post http://localhost:8080/ HTTP/1.1
@@ -17,13 +17,19 @@ Content-Type: application/json
   }
 
 ####
-Put http://localhost:8080/  HTTP/1.1
+Put http://localhost:8080/65ce7072ab54a010db35ea9f  HTTP/1.1
 Content-Type: application/json
 
-    { "favoriteColor": "Black" }
+    {
+    "name": "Charmander",
+    "pokedexId": "007",
+    "type1": "Fire",
+    "type2": "None",
+    "favoriteColor": "Red"
+    }
 
 ####
-Delete http://localhost:8080/ HTTP/1.1
+Delete http://localhost:8080/65ce7ca54aad4177d9cd3602  HTTP/1.1
 
 # Render links vv
 

@@ -5,8 +5,9 @@ const doc = {
     title: "Pokemon API",
     description: "Project 2 for cse341",
   },
-  host: "pokemon-ktdm.onrender.com",
-  schemes: ["https"],
+  //host: "pokemon-ktdm.onrender.com",
+  host: "localhost:8080",
+  schemes: ["http"],
 };
 
 const outputFile = "./swagger.json";

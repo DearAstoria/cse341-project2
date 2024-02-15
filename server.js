@@ -14,6 +14,14 @@ app
   })
   .use("/", pokemonRoutes);
 
+// Pretty much just a catch all
+process.on("uncaughtException", (err, origin) => {
+  console.log(
+    process.stderr,
+    `Caught exception: ${err}\n` + `Exception origin: ${origin}`
+  );
+});
+
 mongodb.initDb((err, mongodb) => {
   if (err) {
     console.log(err);
