@@ -128,7 +128,13 @@ const putPokemon = async (request, response, next) => {
     id = request.params._id;
     //console.log(id);
     let o_id = new ObjectId(id);
-    body = { favoriteColor: request.body.favoriteColor };
+    body = {
+      name: request.body.name,
+      pokedexId: request.body.pokedexId,
+      type1: request.body.type1,
+      type2: request.body.type2,
+      favoriteColor: request.body.favoriteColor,
+    };
     //console.log(body);
     //console.log(body.favoriteColor);
     const result = await mongodb
