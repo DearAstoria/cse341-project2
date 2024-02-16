@@ -5,7 +5,7 @@
     "description": "Project 2 for cse341",
     "version": "1.0.0"
   },
-  "host": "pokemon-ktdm.onrender.com/",
+  "host": "pokemon-ktdm.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
