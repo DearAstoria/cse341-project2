@@ -3,8 +3,20 @@ const bodyParser = require("body-parser");
 //const MongoClient = require("mongodb").MongoClient;
 const mongodb = require("./db/connect");
 const pokemonRoutes = require("./routes/pokemon");
+const session = require("express-session");
+const passport = require("./auth/passport");
 const port = process.env.PORT || 8080;
 const app = express();
+
+app.use(
+  session({
+    secret: "cookie",
+    resave: true,
+    saveUninitialized: true,
+  })
+);
+app.use(passport.initialize());
+app.use(passport.session());
 
 app
   .use(bodyParser.json())
