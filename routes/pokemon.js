@@ -4,6 +4,21 @@ const router = express.Router();
 const swaggerUi = require("swagger-ui-express");
 const swaggerDocument = require("../swagger.json");
 const validate = require("../middleware/validate");
+const passport = require("passport");
+
+router.get(
+  "/auth/google",
+  passport.authenticate("google", { scope: ["profile", "email"] })
+);
+
+router.get(
+  "/auth/google/callback",
+  passport.authenticate("google", { failureRedirect: "/" }),
+  (req, res) => {
+    // Successful authentication, redirect to the home page or any other route
+    res.redirect("/");
+  }
+);
 
 // Serve up those docs
 router.use("/api-docs", swaggerUi.serve);
