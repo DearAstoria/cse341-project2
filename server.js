@@ -47,7 +47,7 @@ app
     res.setHeader("Access-Control-Allow-Origin", "*");
     next();
   })
-  .use("/", pokemonRoutes);
+  .use("/", requiresAuth(), pokemonRoutes);
 
 // Pretty much just a catch all
 process.on("uncaughtException", (err, origin) => {
