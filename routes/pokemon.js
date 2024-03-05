@@ -11,6 +11,11 @@ router.get(
   passport.authenticate("google", { scope: ["profile", "email"] })
 );
 
+//router.get("/logout", (req, res, next) => {
+//  req.logout(() => {});
+//  res.redirect("/hub/login");
+//});
+
 router.get(
   "/auth/google/callback",
   passport.authenticate("google", { failureRedirect: "/" }),
