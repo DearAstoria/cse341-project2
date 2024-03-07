@@ -8,6 +8,8 @@ const passport = require("./auth/passport");
 const port = process.env.PORT || 8080;
 const app = express();
 
+// Make video/upload video
+
 const { auth, requiresAuth } = require("express-openid-connect");
 
 const config = {

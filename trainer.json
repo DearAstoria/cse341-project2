@@ -1,0 +1,29 @@
+[
+  {
+    "fName": "Ash",
+    "lName": "Ketchum",
+    "hometown": "Pallet Town",
+    "region": "Kanto",
+    "style": "Heroic",
+    "professor": "Oak",
+    "favoritePokemon": "Pikachu"
+  },
+  {
+    "fName": "Misty",
+    "lName": "?",
+    "hometown": "Cerulean City",
+    "region": "Kanto",
+    "style": "Passive",
+    "professor": "None",
+    "favoritePokemon": "Togepi"
+  },
+  {
+    "fName": "Brock",
+    "lName": "Harrison",
+    "hometown": "Pewter City",
+    "region": "Kanto",
+    "style": "",
+    "professor": "None",
+    "favoritePokemon": "Steelix"
+  }
+]
