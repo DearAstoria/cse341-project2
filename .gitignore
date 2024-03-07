@@ -1,4 +1,4 @@
 node_modules
 .env
 mongodbpassword.txt
-secret
+secret.json
